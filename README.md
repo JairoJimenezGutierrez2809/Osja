@@ -1,36 +1,37 @@
-# Título del Proyecto
+# Scraper
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Scraper encargado de extraer información de las webs seleccionadas
 
 ## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
 ```
-Da un ejemplo
+* Python 3.6 o superior
+* Puerto 4999 abierto 
 ```
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
 ```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
+1. Instalamos Python 3.6 o superior: https://www.python.org/downloads/
+2. Creamos las variables de entorno necesarias del siguiente modo:
+  * Panel de control\Sistema y seguridad\Sistema y hacemos click en "Configuración avanzada del sistema"
+  * Click en variables de entorno
+  * Añadimos las siguientes variables de entorno en nuestro path:
+    -C:\Python37\Scripts
+    -C:\Python37
+    
+    o la ruta en la tengamos descargado Python con nuestra correspondiente version.
+3.  Instalamos las siguientes librerias con el comando pip desde cmd:
+    pip install socket
+    pip install beautifulsoup4
+    pip install requests
+    pip install lxml
+    ...falta
 ```
 
 _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
@@ -54,52 +55,36 @@ _Explica que verifican estas pruebas y por qué_
 ```
 Da un ejemplo
 ```
-
 ## Deployment 📦
 
 _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Python 3.7](https://docs.python.org/3.7/) - El framework usado
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com//xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+..falta
 
 ## Wiki 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/JairoJimenezGutierrez/Osja/wiki)
+..falta
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Usamos [TortoiseSVN](https://tortoisesvn.net/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/JairoJimenezGutierrez/Osja).
+..falta
 
 ## Autores ✒️
+* **Jairo Jiménez Gutiérrez** - *Trabajo Inicial* - [JairoJimenezGutierrez](https://github.com/JairoJimenezGutierrez)
+* **Óscar Hernandez Pinchete** - *Review and help* - [OscarPinchete](#github Oscar)
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/JairoJimenezGutierrez/Osja/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (Propia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
